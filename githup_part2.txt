@@ -1,0 +1,23 @@
+1.Cloud về local
+-click button CODE -> coppy link -> vào file local -> chuột phải chọn GitClone
+2.Đẩy từ local lên clone (ngược lại)
+- Coppy source từ local vào folder đã mapping với cloud
+-Xác nhận file mới từ local : right click ->Git commit
+- Đẩy source mới lên Cloud với chức năng "Push" 
+ + 2 dòng cuối là cách 1
+ + cách 2: chọn option Git và push
+
+-source lần đầu tiên thì dùng "Git Clone"
+-Update source mới nhất từ trên Cloud thì dùng "Pull" (Right click > Git Syns > Pull)
+
+
+-Lọc file giữ lại local trong .gitignore
+Thư mục :
+.idea
+target
+report
+
+file:
+.png
+.jpg
+.log
